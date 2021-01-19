@@ -1,0 +1,45 @@
+table {
+    border: 2px gray solid;
+    border-radius: 10px;
+}
+
+img {
+    width: 100px;
+    height: 80px;
+}
+
+thead th {
+    background-color: rgb(129, 122, 235);
+}
+
+td,
+th {
+    width: 80px;
+    height: 80px;
+    margin: 5px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px blue;
+    color: #002244;
+}
+
+tr th:first-child,
+tr td:first-child {
+    background-color: rgb(165, 159, 255);
+}
+
+tr td {
+    background-color: rgb(223, 229, 255);
+    text-align: center;
+}
+
+tr th:last-child {
+    background-color: rgb(172, 172, 172);
+}
+
+tr td:last-child {
+    background-color: rgb(214, 214, 214);
+}
+
+.szin {
+    color: red
+}
